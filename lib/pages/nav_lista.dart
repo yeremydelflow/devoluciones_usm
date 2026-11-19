@@ -9,9 +9,9 @@ class NavLista extends StatelessWidget {
       body: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Container(
-          child: Text('lista'),
-        ),
+        
+        Text('lista'),
+        
         Expanded(child: ListView(
           children: [
             ListTile(

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "574587189974",
+    "project_id": "movil-devolucion",
+    "storage_bucket": "movil-devolucion.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574587189974:android:4ae4468da729aab230a777",
+        "android_client_info": {
+          "package_name": "usm_yeremyR_2026.DevolucionesUsm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxFtN4od9AI0Aq1dGyncj2tEZfNKVEoD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
