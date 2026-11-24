@@ -12,7 +12,20 @@
           "package_name": "usm_yeremyR_2026.DevolucionesUsm"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "574587189974-9jona06cenun1sdjstmeg3absucf26m5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "usm_yeremyR_2026.DevolucionesUsm",
+            "certificate_hash": "6fc85a9b5e0b970ec072f58201aa54307427dc22"
+          }
+        },
+        {
+          "client_id": "574587189974-l64og264km4h5l0urbcdvahoaac1fefh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBxFtN4od9AI0Aq1dGyncj2tEZfNKVEoD4"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574587189974-l64og264km4h5l0urbcdvahoaac1fefh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
