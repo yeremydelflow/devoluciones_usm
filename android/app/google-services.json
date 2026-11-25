@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "574587189974-aermdo15ed5p1pf434l16i588hjgq2q8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "usm_yeremyR_2026.DevolucionesUsm",
+            "certificate_hash": "c31ab8ee209d4a02db25c686f2fc4100ff5950bb"
+          }
+        },
+        {
           "client_id": "574587189974-l64og264km4h5l0urbcdvahoaac1fefh.apps.googleusercontent.com",
           "client_type": 3
         }
