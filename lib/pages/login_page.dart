@@ -11,9 +11,6 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  // GoogleSignInAccount? cuenta;
-  // AuthCredential? credenciales;
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -28,6 +25,7 @@ class _LoginPageState extends State<LoginPage> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          Divider(color: Colors.black,height: 50,),
           Text('Devoluciones USM', style: TextStyle(
             color: Colors.white,
             decoration: TextDecoration.none
@@ -41,8 +39,8 @@ class _LoginPageState extends State<LoginPage> {
                   final cuenta = await GoogleSignIn.instance.authenticate();
                   final credenciales = GoogleAuthProvider.credential(idToken: cuenta.authentication.idToken);
                   await FirebaseAuth.instance.signInWithCredential(credenciales);
-                } catch (e) {
-                  debugPrint('Error: $e');
+                } on FirebaseAuthException catch (ex) {
+                  print(ex.code);
                 }
               },
               child: Column(
